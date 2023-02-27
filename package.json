@@ -1,0 +1,24 @@
+{
+  "name": "test2",
+  "version": "1.0.0",
+  "description": "bank_gmail",
+  "main": "app.js",
+  "scripts": {
+    "run": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "googleapis": "^111.0.0",
+    "moment": "^2.29.4",
+    "morgan": "^1.10.0",
+    "node-sass": "^8.0.0"
+  },
+  "devDependencies": {
+    "sass": "^1.58.3"
+  }
+}

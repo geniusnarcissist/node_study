@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Node.js習得</title>
+  <link href="<%= ROOT_PATH %>/css/app.css" rel="stylesheet">
+</head>
+<body class="p-main">
+  <div class="p-main__con">
+    <p class="p-main__con__h1"><%= total %></p>
+    <div class="c-log">
+      <ul class="c-log__con">
+        <li class="c-log__con__list">
+          <div class="c-log__con__list__left">
+            <div class="c-log__con__list__left__up">
+              <div class="c-log__con__list__left__up__card"><%= card %></div>
+              <div class="c-log__con__list__left__up__payee"><%= payee %></div>
+            </div>
+          </div>
+          <div class="c-log__con__list__right__amountPaid">
+            <div class="c-log__con__list__right__amountPaid"><%= amountPaid %></div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>

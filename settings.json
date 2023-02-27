@@ -1,0 +1,22 @@
+{
+  "editor.guides.bracketPairs": true,
+  "workbench.iconTheme": "vscode-icons",
+  "explorer.confirmDelete": false,
+  "security.workspace.trust.untrustedFiles": "open",
+  "editor.tabSize": 2,
+  "editor.fontSize": 13,
+  "explorer.confirmDragAndDrop": false,
+  "window.zoomLevel": -1,
+  "liveSassCompile.settings.formats": [
+    {
+      "format": "expanded",
+      "extensionName": ".css",
+      "savePath": "public/css/"
+    }
+  ],
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "javascript.preferences.importModuleSpecifier": "non-relative",
+  "liveServer.settings.port": 8000,
+  "vsicons.dontShowNewVersionMessage": true
+}
